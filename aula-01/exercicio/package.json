@@ -1,0 +1,17 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giovanni Almeida",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.0",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.2.2"
+  }
+}
