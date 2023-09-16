@@ -1,0 +1,8 @@
+.botaoFatec{
+    border: 1px solid grayscale;
+    background-color: red;
+    margin-bottom: 15px;
+    width:300px;
+    color:white;
+    font-size: 22px;
+}

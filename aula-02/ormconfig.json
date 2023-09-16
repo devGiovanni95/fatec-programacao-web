@@ -1,0 +1,25 @@
+{
+    "type": "mysql",
+    "host": "localhost", // host do seu banco de dados MySQL
+    "port": 3306, // porta do MySQL (por padrão é 3306)
+    "username": "seu_usuario_mysql",
+    "password": "sua_senha_mysql",
+    "database": "nome_do_seu_banco_de_dados",
+    "synchronize": false, // Defina como true apenas em ambiente de desenvolvimento para auto-criar tabelas
+    "logging": true, // Ative o logging para ver consultas SQL no console
+    "entities": [
+      "src/entity/**/*.ts"
+    ],
+    "migrations": [
+      "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+      "src/subscriber/**/*.ts"
+    ],
+    "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+    }
+  }
+  
